@@ -1,0 +1,22 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fullscreen container for the 3D canvas */
+  body {
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  #container3D {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e; /* Dark background for better contrast */
+  }
+  

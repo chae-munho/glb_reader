@@ -1,0 +1,17 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "hello",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
